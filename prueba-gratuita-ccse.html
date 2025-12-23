@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Prueba gratuita CCSE (25 preguntas) | Examen CCSE 2026</title>
+
+  <!-- SEO -->
+  <link rel="canonical" href="https://pruebaccse.com/prueba-gratuita-ccse.html" />
+
+  <meta name="description"
+        content="Realiza una prueba gratuita del examen CCSE con 25 preguntas oficiales. Simulación completa del examen de nacionalidad española CCSE 2026, sin registro." />
+
+  <meta name="keywords"
+        content="prueba gratuita CCSE, test CCSE gratis, examen CCSE 2026, simulacro CCSE, preguntas oficiales CCSE, nacionalidad española CCSE" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:title" content="Prueba gratuita CCSE – Simulación oficial (25 preguntas)" />
+  <meta property="og:description"
+        content="Simulación gratuita del examen CCSE con 25 preguntas oficiales. Evalúa tu nivel antes del examen de nacionalidad española." />
+  <meta property="og:url" content="https://pruebaccse.com/prueba-gratuita-ccse.html" />
+  <meta property="og:image" content="https://pruebaccse.com/assets/images/og-default.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Prueba gratuita CCSE – Examen de nacionalidad española" />
+  <meta name="twitter:description"
+        content="Haz gratis una simulación del examen CCSE con preguntas oficiales y resultado inmediato." />
+  <meta name="twitter:image" content="https://pruebaccse.com/assets/images/og-default.jpg" />
+
+  <!-- Fonts & CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/shared.css">
+  <link rel="stylesheet" href="/assets/css/testpages.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="header-inner">
+
+    <div class="header-left">
+      <a href="/index.html" class="brand-link">
+        <img src="/assets/images/es.svg" alt="España">
+        <div class="brand-title">pruebaccse.com</div>
+      </a>
+    </div>
+
+    <div class="header-center">
+      <nav class="header-nav">
+        <a href="/prueba-gratuita-ccse.html">Prueba gratuita</a>
+        <a href="/contact.html">Contacto</a>
+        <a href="https://civiclearn.com/ccse/login">Acceso</a>
+      </nav>
+    </div>
+
+    <div class="header-right">
+      <div class="brand-powered">
+        powered by <span>CivicLearn</span>
+      </div>
+      <a href="https://civiclearn.com/ccse/checkout.html" class="btn-small-purple">
+        Acceso completo
+      </a>
+    </div>
+
+  </div>
+</header>
+
+<!-- MAIN -->
+<main>
+
+<!-- MAIN -->
+<main>
+<section class="free-test-intro">
+<p>
+  Este test gratuito del examen CCSE te permite familiarizarte con el tipo de
+  preguntas incluidas en la prueba oficial de conocimientos constitucionales
+  y socioculturales de España, organizada por el Instituto Cervantes.
+</p>
+
+<p>
+  Las preguntas se basan en el temario oficial del CCSE e incluyen contenidos
+  sobre la Constitución española, las instituciones del Estado, la cultura,
+  la sociedad y la vida cotidiana en España. Utiliza este test para evaluar
+  tu nivel actual e identificar los temas que necesitas reforzar.
+</p>
+
+<p>
+  No es necesario registrarse. Puedes empezar de inmediato y repetir este
+  test gratuito del CCSE tantas veces como quieras.
+</p>
+
+</section>
+
+  <div class="test-header">
+    <div>
+      <div class="badge">Test gratuito  – 25 questions</div>
+      <div class="progress" id="progressLabel">Pregunta 1 de 25 · Resultado 0</div>
+    </div>
+    <div class="timer badge" id="timer">45:00</div>
+  </div>
+
+  <div class="question-card">
+    <div class="q-title" id="qTitle">…</div>
+    <div class="choices" id="choices"></div>
+
+    <div class="controls">
+      <button class="btn secondary" id="btnPrev" disabled>← Precedente</button>
+      <button class="btn" id="btnNext" disabled>Siguiente →</button>
+    </div>
+  </div>
+
+  <!-- RESULTS -->
+  <div id="resultPanel" class="result-panel" style="display:none;">
+    <h2>Resultado del test</h2>
+    <div id="gradeStamp" class="result-stamp"></div>
+    <p id="resultText" class="result-text"></p>
+
+    <div class="result-chart-container">
+      <canvas id="resultChart"></canvas>
+    </div>
+
+    <div class="cta">
+      <a href="https://civiclearn.com/ccse/checkout.html" class="btn">
+        Acceso completo a todos los tests de práctica
+      </a>
+    </div>
+  </div>
+</main>
+
+<footer class="cl-footer">
+  <div class="cl-footer-inner">
+    © 2025 <span class="cl-footer-brand">CivicLearn</span> — Todos los derechos reservados.
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- JAVASCRIPT – fixed set of 25 questions (CCSE); first answer is the correct one -->
+<script>
+const QUESTIONS = [
+  { q: "Las instituciones de una comunidad autónoma son: el consejo de gobierno, el presidente y…", a: ["la asamblea legislativa.", "el ayuntamiento", "la delegación del Gobierno"] },
+  { q: "¿Qué institución tiene como fin la promoción de la enseñanza de la lengua española y la difusión de la cultura en español?", a: ["El Instituto Cervantes", "El Instituto Nacional de Administración Pública", "El Instituto Nacional de Estadística"] },
+  { q: "El Instituto de Comercio Exterior de España, el Instituto de las Mujeres y la Dirección General de Tráfico…", a: ["dependen de ministerios", "son organismos autónomos", "son gobernadores"] },
+  { q: "Cuando una ley ya está aprobada, ¿qué necesita para poder aplicarse?", a: ["Normas que la desarrollen", "Ser revisada por el Parlamento", "Nada"] },
+  { q: "¿Quién aprueba los presupuestos generales del Estado?", a: ["Las Cortes Generales", "El Gobierno de España", "El Tribunal de Cuentas"] },
+  { q: "¿Quién elige al presidente del Gobierno?", a: ["El Congreso de los Diputados", "El rey", "El Tribunal Supremo"] },
+  { q: "Los ciudadanos deben colaborar con los jueces si se lo piden.", a: ["Verdadero", "Falso"] },
+  { q: "Los sindicatos pueden participar en negociaciones con empresarios y con el Gobierno.", a: ["Verdadero", "Falso"] },
+  { q: "En España, los poderes públicos deben proteger la salud y promover el deporte.", a: ["Verdadero", "Falso"] },
+  { q: "El parque nacional de Ordesa está en…", a: ["Aragón", "Navarra", "Castilla-La Mancha"] },
+  { q: "¿Cuál de estos ríos desemboca en el mar Mediterráneo?", a: ["El Júcar", "El Tajo", "El Duero"] },
+  { q: "¿En qué lugar de España hay inviernos fríos y veranos muy calurosos?", a: ["Madrid", "Canarias", "Comunidad Valenciana"] },
+  { q: "¿Cuál es la capital de la comunidad autónoma de Extremadura?", a: ["Mérida", "Badajoz", "Cáceres"] },
+  { q: "¿Quién escribió *La casa de Bernarda Alba*?", a: ["Federico García Lorca", "Antonio Machado", "Miguel de Cervantes"] },
+  { q: "¿Quién escribió *Nada*, novela sobre la posguerra española?", a: ["Carmen Laforet", "Ana María Matute", "María Dueñas"] },
+  { q: "¿Qué directora española destacó por modernizar el cine nacional?", a: ["Pilar Miró", "Sara Baras", "Penélope Cruz"] },
+  { q: "¿Qué novela escribió Irene Vallejo?", a: ["El infinito en un junco", "El tiempo entre costuras", "El camino"] },
+  { q: "Juan Mari Arzak es un famoso…", a: ["cocinero", "escritor", "músico"] },
+  { q: "¿Quién fue Clara Campoamor?", a: ["Una defensora de los derechos de la mujer", "Una cantante lírica", "Una directora de cine"] },
+  { q: "¿Quién pintó *La verbena*?", a: ["Maruja Mallo", "Carmen Maura", "Clara Lago"] },
+  { q: "¿En qué museo está el *Guernica* de Picasso?", a: ["Museo Reina Sofía", "Museo del Prado", "Museo Thyssen"] },
+  { q: "¿Qué deportista juega al tenis?", a: ["Carlos Alcaraz", "Pau Gasol", "Carlos Sainz"] },
+  { q: "¿Quién recibió el Premio Nobel de Literatura?", a: ["Vicente Aleixandre", "María Zambrano", "Pablo Picasso"] },
+  { q: "¿En qué ciudad está el Museo Guggenheim?", a: ["Bilbao", "Madrid", "Valencia"] },
+  { q: "¿A qué sustituye el registro electrónico individual?", a: ["Al libro de familia", "Al DNI", "Al permiso de conducir"] }
+];
+
+// shuffle helper
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// model
+const model = QUESTIONS.map((item, idx) => {
+  const correct = item.a[0];
+  const shuffled = shuffle(item.a);
+  return {
+    index: idx,
+    text: item.q,
+    choices: shuffled.map(opt => ({ text: opt, isCorrect: opt === correct })),
+    answered: false,
+    pickedIndex: -1
+  };
+});
+
+const qTitle = document.getElementById('qTitle');
+const choicesEl = document.getElementById('choices');
+const btnPrev = document.getElementById('btnPrev');
+const btnNext = document.getElementById('btnNext');
+const progressLabel = document.getElementById('progressLabel');
+const resultPanel = document.getElementById('resultPanel');
+const gradeStamp = document.getElementById('gradeStamp');
+const resultText = document.getElementById('resultText');
+const timerEl = document.getElementById('timer');
+
+let qi = 0, score = 0;
+const total = model.length;
+
+// 45 minutes (official CCSE)
+let timerSec = 45 * 60;
+
+const timerInt = setInterval(() => {
+  timerSec--;
+  if (timerSec < 0) {
+    clearInterval(timerInt);
+    finishTest();
+    return;
+  }
+  const m = Math.floor(timerSec / 60).toString().padStart(2, '0');
+  const s = (timerSec % 60).toString().padStart(2, '0');
+  timerEl.textContent = `${m}:${s}`;
+}, 1000);
+
+function renderQuestion() {
+  const q = model[qi];
+  qTitle.textContent = q.text;
+  choicesEl.innerHTML = '';
+  q.choices.forEach((c, idx) => {
+    const btn = document.createElement('button');
+    btn.className = 'choice' + (q.answered ? ' disabled' : '');
+    btn.textContent = c.text;
+    btn.onclick = () => pick(idx);
+    choicesEl.appendChild(btn);
+  });
+
+  btnPrev.disabled = qi === 0;
+  btnNext.disabled = !q.answered;
+  progressLabel.textContent = `Pregunta ${qi + 1} de ${total} · Aciertos ${score}`;
+}
+
+function pick(choiceIndex) {
+  const q = model[qi];
+  if (q.answered) return;
+
+  q.answered = true;
+  q.pickedIndex = choiceIndex;
+
+  if (q.choices[choiceIndex].isCorrect) score++;
+
+  const buttons = choicesEl.querySelectorAll('button');
+  buttons.forEach((b, idx) => {
+    b.disabled = true;
+    b.classList.add('disabled');
+    if (q.choices[idx].isCorrect) b.classList.add('correct');
+    if (idx === choiceIndex && !q.choices[idx].isCorrect) b.classList.add('wrong');
+  });
+
+  btnNext.disabled = false;
+}
+
+btnPrev.onclick = () => { if (qi > 0) { qi--; renderQuestion(); } };
+btnNext.onclick = () => { qi < total - 1 ? (qi++, renderQuestion()) : finishTest(); };
+
+function finishTest() {
+  clearInterval(timerInt);
+  document.querySelector('.question-card').style.display = 'none';
+  resultPanel.style.display = 'block';
+
+  const wrong = total - score;
+  const pass = score >= 15;
+
+  gradeStamp.textContent = pass ? "APTO" : "NO APTO";
+  gradeStamp.className = "result-stamp " + (pass ? "pass" : "fail");
+
+  resultText.textContent =
+    `Resultado final: ${score} / ${total}. ` +
+    `Correctas: ${score}. Incorrectas: ${wrong}.`;
+
+  new Chart(document.getElementById('resultChart'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Correctas', 'Incorrectas'],
+      datasets: [{ data: [score, wrong] }]
+    },
+    options: { cutout: '65%', plugins: { legend: { position: 'bottom' } } }
+  });
+}
+
+renderQuestion();
+</script>
+
+
+</body>
+</html>
+

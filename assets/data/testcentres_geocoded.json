@@ -1,0 +1,443 @@
+[
+  {
+    "id": "AU_ACT_01",
+    "name": "Citizenship test centre – Belconnen",
+    "state": "ACT",
+    "city": "Belconnen",
+    "address": "Belconnen Service Centre (Centrelink), Ground Floor, North Point Plaza, 8 Chandler Street, Belconnen ACT 2617",
+    "lat": -35.237823,
+    "lng": 149.0690501
+  },
+  {
+    "id": "AU_ACT_02",
+    "name": "Citizenship test centre – Woden",
+    "state": "ACT",
+    "city": "Woden",
+    "address": "Woden Service Centre (Centrelink), 2/6 Bowes Street, Woden ACT 2606",
+    "lat": -35.3425344,
+    "lng": 149.0856355
+  },
+  {
+    "id": "AU_ACT_03",
+    "name": "Citizenship test centre – Gungahlin",
+    "state": "ACT",
+    "city": "Gungahlin",
+    "address": "Gungahlin Service Centre (Centrelink), 5 Fussell Lane, Gungahlin ACT 2912",
+    "lat": -35.1841261,
+    "lng": 149.1359365
+  },
+  {
+    "id": "AU_NSW_01",
+    "name": "Citizenship test centre – Albury",
+    "state": "NSW",
+    "city": "Albury",
+    "address": "Albury Service Centre (Centrelink), 430 Wilson Street, Albury NSW 2640",
+    "lat": -36.078076,
+    "lng": 146.9286012
+  },
+  {
+    "id": "AU_NSW_02",
+    "name": "Citizenship test centre – Corrimal",
+    "state": "NSW",
+    "city": "Corrimal",
+    "address": "Corrimal Service Centre (Centrelink), Corner Underwood and Collins Street, Corrimal NSW 2518",
+    "lat": -34.3718524,
+    "lng": 150.8956248
+  },
+  {
+    "id": "AU_NSW_03",
+    "name": "Citizenship test centre – Griffith",
+    "state": "NSW",
+    "city": "Griffith",
+    "address": "Griffith Service Centre (Centrelink), 95–97 Yambil Street, Griffith NSW 2680",
+    "lat": -34.2884609,
+    "lng": 146.0390207
+  },
+  {
+    "id": "AU_NSW_04",
+    "name": "Citizenship test centre – Newcastle",
+    "state": "NSW",
+    "city": "Newcastle",
+    "address": "Newcastle Service Centre (Centrelink), 279 King Street, Newcastle NSW 2300",
+    "lat": -32.9274761,
+    "lng": 151.7786144
+  },
+  {
+    "id": "AU_NSW_05",
+    "name": "Citizenship test centre – Orange",
+    "state": "NSW",
+    "city": "Orange",
+    "address": "Orange Service Centre (Centrelink), 161 Kite Street (Entrance via Bathurst Road), Orange NSW 2800",
+    "lat": -33.2861648,
+    "lng": 149.1057832
+  },
+  {
+    "id": "AU_NSW_06",
+    "name": "Citizenship test centre – Parramatta",
+    "state": "NSW",
+    "city": "Parramatta",
+    "address": "Department of Home Affairs, 101 George Street, Parramatta NSW 2150",
+    "lat": -33.8153023,
+    "lng": 151.0088556
+  },
+  {
+    "id": "AU_NSW_07",
+    "name": "Citizenship test centre – Port Macquarie",
+    "state": "NSW",
+    "city": "Port Macquarie",
+    "address": "Port Macquarie Service Centre (Centrelink), 5–7 Short Street, Port Macquarie NSW 2444",
+    "lat": -31.4297046,
+    "lng": 152.9063593
+  },
+  {
+    "id": "AU_NSW_08",
+    "name": "Citizenship test centre – Tamworth",
+    "state": "NSW",
+    "city": "Tamworth",
+    "address": "Tamworth Service Centre (Centrelink), 219–223 Peel Street, Tamworth NSW 2340",
+    "lat": -31.0909406,
+    "lng": 150.9300739
+  },
+  {
+    "id": "AU_NSW_09",
+    "name": "Citizenship test centre – Coffs Harbour",
+    "state": "NSW",
+    "city": "Coffs Harbour",
+    "address": "Coffs Harbour Service Centre (Centrelink), 21–25 Duke Street, Coffs Harbour NSW 2450",
+    "lat": -30.2982544,
+    "lng": 153.117888
+  },
+  {
+    "id": "AU_NSW_10",
+    "name": "Citizenship test centre – Tweed Heads South",
+    "state": "NSW",
+    "city": "Tweed Heads South",
+    "address": "Tweed Heads Service Centre (Centrelink), 100 Blundell Boulevard, Tweed Heads South NSW 2486",
+    "lat": -28.1995773,
+    "lng": 153.5415956
+  },
+  {
+    "id": "AU_NSW_11",
+    "name": "Citizenship test centre – Wagga Wagga",
+    "state": "NSW",
+    "city": "Wagga Wagga",
+    "address": "Wagga Service Centre (Centrelink), 63 Tompson Street, Wagga Wagga NSW 2650",
+    "lat": -35.111016,
+    "lng": 147.3630169
+  },
+  {
+    "id": "AU_NSW_12",
+    "name": "Citizenship test centre – Charlestown",
+    "state": "NSW",
+    "city": "Charlestown",
+    "address": "Charlestown Service Centre (Centrelink), Level 3, 331 Charlestown Road, Charlestown NSW 2290",
+    "lat": -32.9521686,
+    "lng": 151.6861833
+  },
+  {
+    "id": "AU_NSW_13",
+    "name": "Citizenship test centre – Armidale",
+    "state": "NSW",
+    "city": "Armidale",
+    "address": "Armidale Service Centre (Centrelink), 91 Beardy Street, Armidale NSW 2350",
+    "lat": -30.5144881,
+    "lng": 151.670841
+  },
+  {
+    "id": "AU_NT_01",
+    "name": "Citizenship test centre – Alice Springs",
+    "state": "NT",
+    "city": "Alice Springs",
+    "address": "Alice Springs Service Centre (Centrelink), 5 Railway Terrace, Alice Springs NT 0870",
+    "lat": -23.699984,
+    "lng": 133.8778905
+  },
+  {
+    "id": "AU_NT_02",
+    "name": "Citizenship test centre – Casuarina",
+    "state": "NT",
+    "city": "Casuarina",
+    "address": "Casuarina Service Centre (Centrelink), 50 Bradshaw Terrace, Casuarina NT 0810",
+    "lat": -12.3716616,
+    "lng": 130.8812845
+  },
+  {
+    "id": "AU_NT_03",
+    "name": "Citizenship test centre – Palmerston",
+    "state": "NT",
+    "city": "Palmerston",
+    "address": "Palmerston Service Centre (Centrelink), 1 Palmerston Circuit, Palmerston NT 0830",
+    "lat": -12.4782058,
+    "lng": 130.9853329
+  },
+  {
+    "id": "AU_QLD_01",
+    "name": "Citizenship test centre – Brisbane",
+    "state": "QLD",
+    "city": "Brisbane",
+    "address": "Department of Home Affairs, 299 Adelaide Street, Brisbane QLD 4000",
+    "lat": -27.4660729,
+    "lng": 153.0285652
+  },
+  {
+    "id": "AU_QLD_02",
+    "name": "Citizenship test centre – Kawana Waters",
+    "state": "QLD",
+    "city": "Buddina",
+    "address": "Kawana Waters Service Centre (Centrelink), 113 Point Cartwright Drive, Buddina QLD 4575",
+    "lat": -26.6994007,
+    "lng": 153.1319021
+  },
+  {
+    "id": "AU_QLD_03",
+    "name": "Citizenship test centre – Mackay",
+    "state": "QLD",
+    "city": "Mount Pleasant",
+    "address": "Mackay Service Centre (Centrelink), 12 Greenfields Boulevard, Mount Pleasant QLD 4740",
+    "lat": -21.121041,
+    "lng": 149.1591006
+  },
+  {
+    "id": "AU_QLD_04",
+    "name": "Citizenship test centre – Mount Isa",
+    "state": "QLD",
+    "city": "Mount Isa",
+    "address": "Mount Isa Service Centre (Centrelink), 30–32 West Street, Mount Isa QLD 4825",
+    "lat": -20.7272405,
+    "lng": 139.4901527
+  },
+  {
+    "id": "AU_QLD_05",
+    "name": "Citizenship test centre – Rockhampton North",
+    "state": "QLD",
+    "city": "Rockhampton",
+    "address": "Rockhampton Service Centre (Centrelink), 190–194 Musgrave Street, Rockhampton QLD 4700",
+    "lat": -23.3706989,
+    "lng": 150.5213265
+  },
+  {
+    "id": "AU_QLD_06",
+    "name": "Citizenship test centre – Bundaberg",
+    "state": "QLD",
+    "city": "Bundaberg",
+    "address": "Bundaberg Service Centre (Centrelink), 26 Woongarra Street, Bundaberg QLD 4670",
+    "lat": -24.8663267,
+    "lng": 152.3542105
+  },
+  {
+    "id": "AU_QLD_07",
+    "name": "Citizenship test centre – Cairns",
+    "state": "QLD",
+    "city": "Portsmith",
+    "address": "Cairns City Service Centre (Centrelink), 147–161 Draper Street, Portsmith QLD 4870",
+    "lat": -16.9304499,
+    "lng": 145.7719517
+  },
+  {
+    "id": "AU_QLD_08",
+    "name": "Citizenship test centre – Townsville",
+    "state": "QLD",
+    "city": "Thuringowa Central",
+    "address": "Townsville Service Centre (Centrelink), Corner Hervey Range Road and Kern Brothers Drive, Thuringowa Central QLD 4817",
+    "lat": -19.3184527,
+    "lng": 146.7256254
+  },
+  {
+    "id": "AU_QLD_09",
+    "name": "Citizenship test centre – Toowoomba",
+    "state": "QLD",
+    "city": "Toowoomba",
+    "address": "Toowoomba Service Centre (Centrelink), 12 Bell Street, Toowoomba QLD 4350",
+    "lat": -27.5602449,
+    "lng": 151.9569446
+  },
+  {
+    "id": "AU_QLD_10",
+    "name": "Citizenship test centre – Maroochydore",
+    "state": "QLD",
+    "city": "Maroochydore",
+    "address": "Maroochydore Service Centre (Centrelink), 5 Maud Street, Maroochydore QLD 4558",
+    "lat": -26.6563785,
+    "lng": 153.0948324
+  },
+  {
+    "id": "AU_QLD_11",
+    "name": "Citizenship test centre – Biggera Waters",
+    "state": "QLD",
+    "city": "Biggera Waters",
+    "address": "Biggera Waters Service Centre (Centrelink), 97–99 Brisbane Road, Biggera Waters QLD 4216",
+    "lat": -27.9335942,
+    "lng": 153.3867057
+  },
+  {
+    "id": "AU_SA_01",
+    "name": "Citizenship test centre – Adelaide",
+    "state": "SA",
+    "city": "Adelaide",
+    "address": "Department of Home Affairs, 70 Franklin Street, Adelaide SA 5000",
+    "lat": -34.9270492,
+    "lng": 138.5966484
+  },
+  {
+    "id": "AU_SA_02",
+    "name": "Citizenship test centre – Port Augusta",
+    "state": "SA",
+    "city": "Port Augusta",
+    "address": "Port Augusta Service Centre (Centrelink), 21–23 Mackay Street, Port Augusta SA 5700",
+    "lat": -32.4911717,
+    "lng": 137.7628047
+  },
+  {
+    "id": "AU_TAS_01",
+    "name": "Citizenship test centre – Launceston",
+    "state": "TAS",
+    "city": "Launceston",
+    "address": "Launceston Service Centre (Centrelink), 8 Boland Street, Launceston TAS 7250",
+    "lat": -41.4312424,
+    "lng": 147.1405012
+  },
+  {
+    "id": "AU_TAS_02",
+    "name": "Citizenship test centre – Hobart",
+    "state": "TAS",
+    "city": "Hobart",
+    "address": "Hobart Service Centre (Centrelink), 30–38 Barrack Street, Hobart TAS 7000",
+    "lat": -42.8830136,
+    "lng": 147.3188371
+  },
+  {
+    "id": "AU_VIC_01",
+    "name": "Citizenship test centre – Ballarat",
+    "state": "VIC",
+    "city": "Wendouree",
+    "address": "Ballarat Service Centre (Centrelink), 21–53 Learmonth Road, Wendouree VIC 3355",
+    "lat": -37.5341605,
+    "lng": 143.8178299
+  },
+  {
+    "id": "AU_VIC_02",
+    "name": "Citizenship test centre – Bendigo",
+    "state": "VIC",
+    "city": "Bendigo",
+    "address": "Bendigo Service Centre (Centrelink), Corner of Lyttleton Terrace and St Andrews Avenue, Bendigo VIC 3550",
+    "lat": -36.7584368,
+    "lng": 144.2869216
+  },
+  {
+    "id": "AU_VIC_03",
+    "name": "Citizenship test centre – Melbourne",
+    "state": "VIC",
+    "city": "Docklands",
+    "address": "Department of Home Affairs, 808 Bourke Street, Docklands VIC 3008",
+    "lat": -37.8182959,
+    "lng": 144.9489098
+  },
+  {
+    "id": "AU_VIC_04",
+    "name": "Citizenship test centre – Mildura",
+    "state": "VIC",
+    "city": "Mildura",
+    "address": "Mildura Service Centre (Centrelink), 112–124 Deakin Avenue, Mildura VIC 3500",
+    "lat": -34.1880234,
+    "lng": 142.1599096
+  },
+  {
+    "id": "AU_VIC_05",
+    "name": "Citizenship test centre – Morwell",
+    "state": "VIC",
+    "city": "Morwell",
+    "address": "Morwell Service Centre (Centrelink), Corner Elgin and Chapel Streets, Morwell VIC 3840",
+    "lat": -38.2400099,
+    "lng": 146.3990186
+  },
+  {
+    "id": "AU_VIC_06",
+    "name": "Citizenship test centre – Shepparton",
+    "state": "VIC",
+    "city": "Shepparton",
+    "address": "Shepparton Service Centre (Centrelink), 298 Maude Street, Shepparton VIC 3630",
+    "lat": -36.384969,
+    "lng": 145.3997411
+  },
+  {
+    "id": "AU_VIC_07",
+    "name": "Citizenship test centre – Warrnambool",
+    "state": "VIC",
+    "city": "Warrnambool",
+    "address": "Warrnambool Service Centre (Centrelink), 109 Lava Street, Warrnambool VIC 3280",
+    "lat": -38.3824805,
+    "lng": 142.4859232
+  },
+  {
+    "id": "AU_WA_01",
+    "name": "Citizenship test centre – Albany",
+    "state": "WA",
+    "city": "Albany",
+    "address": "Albany Service Centre (Centrelink), 15 Peels Place, Albany WA 6330",
+    "lat": -35.0259267,
+    "lng": 117.8829031
+  },
+  {
+    "id": "AU_WA_02",
+    "name": "Citizenship test centre – Broome",
+    "state": "WA",
+    "city": "Broome",
+    "address": "Broome Service Centre (Centrelink), 158 Frederick Street, Broome WA 6725",
+    "lat": -17.9546908,
+    "lng": 122.2317649
+  },
+  {
+    "id": "AU_WA_03",
+    "name": "Citizenship test centre – Bunbury",
+    "state": "WA",
+    "city": "Bunbury",
+    "address": "Bunbury Service Centre (Centrelink), Ground Floor, 25 Prinsep Street, Bunbury WA 6230",
+    "lat": -33.3252983,
+    "lng": 115.6338662
+  },
+  {
+    "id": "AU_WA_04",
+    "name": "Citizenship test centre – Geraldton",
+    "state": "WA",
+    "city": "Geraldton",
+    "address": "Geraldton Service Centre (Centrelink), Corner Forrest Street and Chapman Road, Geraldton WA 6530",
+    "lat": -28.7717427,
+    "lng": 114.6136824
+  },
+  {
+    "id": "AU_WA_05",
+    "name": "Citizenship test centre – Kalgoorlie",
+    "state": "WA",
+    "city": "Kalgoorlie",
+    "address": "Kalgoorlie Service Centre (Centrelink), Corner Egan and Porter Streets, Kalgoorlie WA 6430",
+    "lat": -30.7460711,
+    "lng": 121.4760374
+  },
+  {
+    "id": "AU_WA_06",
+    "name": "Citizenship test centre – Karratha",
+    "state": "WA",
+    "city": "Karratha",
+    "address": "Karratha Service Centre (Centrelink), 14 De Grey Place, Karratha WA 6714",
+    "lat": -20.73735677415672, 
+    "lng": 116.8500220597724
+  },
+  {
+    "id": "AU_WA_07",
+    "name": "Citizenship test centre – Perth",
+    "state": "WA",
+    "city": "Perth",
+    "address": "Department of Home Affairs, 836 Wellington Street, Perth WA 6000",
+    "lat": -31.9476046,
+    "lng": 115.8482972
+  },
+  {
+    "id": "AU_WA_08",
+    "name": "Citizenship test centre – South Hedland",
+    "state": "WA",
+    "city": "South Hedland",
+    "address": "South Hedland Service Centre (Centrelink), Corner Brand Street and Tonkin Streets, South Hedland WA 6722",
+    "lat": -20.4080001,
+    "lng": 118.5985498
+  }
+]
