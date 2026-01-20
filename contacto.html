@@ -129,7 +129,6 @@
   </div>
 </footer>
 
-<!-- AJAX LOGIC: NO REDIRECT -->
 <script>
 document.getElementById("contactForm").addEventListener("submit", async function(e) {
   e.preventDefault();
@@ -138,9 +137,15 @@ document.getElementById("contactForm").addEventListener("submit", async function
 
   const success = document.getElementById("successMessage");
   const error = document.getElementById("errorMessage");
+  const submitBtn = form.querySelector('button[type="submit"]');
 
   success.style.display = "none";
   error.style.display = "none";
+
+  // 🔒 prevent double submit
+  submitBtn.disabled = true;
+  const originalText = submitBtn.innerText;
+  submitBtn.innerText = "Enviando…";
 
   const payload = {
     site: "pruebaccse.com",
@@ -162,15 +167,19 @@ document.getElementById("contactForm").addEventListener("submit", async function
     if (response.ok) {
       success.style.display = "block";
       form.reset();
+      // keep button disabled – submission is complete
     } else {
-      error.style.display = "block";
+      throw new Error("Request failed");
     }
 
   } catch (err) {
     error.style.display = "block";
+    submitBtn.disabled = false;
+    submitBtn.innerText = originalText;
   }
 });
 </script>
+
 
 
 
