@@ -142,7 +142,6 @@ document.getElementById("contactForm").addEventListener("submit", async function
   success.style.display = "none";
   error.style.display = "none";
 
-  // 🔒 prevent double submit
   submitBtn.disabled = true;
   const originalText = submitBtn.innerText;
   submitBtn.innerText = "Enviando…";
@@ -167,7 +166,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
     if (response.ok) {
       success.style.display = "block";
       form.reset();
-      // keep button disabled – submission is complete
+      submitBtn.style.display = "none";
     } else {
       throw new Error("Request failed");
     }
@@ -179,6 +178,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
   }
 });
 </script>
+
 
 
 
