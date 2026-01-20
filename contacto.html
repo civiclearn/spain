@@ -89,6 +89,8 @@
 
     <!-- AJAX Formspree contact form -->
     <form id="contactForm" class="contact-form">
+	
+	<input type="text" name="company" tabindex="-1" autocomplete="off" style="display:none">
 
       <div class="field">
         <label>Nombre*</label>
@@ -134,6 +136,10 @@ document.getElementById("contactForm").addEventListener("submit", async function
   e.preventDefault();
 
   const form = e.target;
+  
+  if (form.querySelector('input[name="company"]').value) {
+    return; 
+  }
 
   const success = document.getElementById("successMessage");
   const error = document.getElementById("errorMessage");
