@@ -25,6 +25,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/newhome.css">
+
+  <style>
+    /* DELE A2 routing strip — yellow tinted "alternative path" callout
+       (inverted from the "+ Bonus included" pattern used on delea2.org) */
+    .dele-routing-strip {
+      max-width: 880px;
+      margin: 0 auto 2.5rem;
+      padding: 0 1.2rem;
+    }
+    .dele-routing-strip-inner {
+      background: linear-gradient(135deg, #fff8e1 0%, #fff3c4 100%);
+      border-radius: 1.4rem;
+      padding: 2rem 2.2rem;
+      border-left: 5px solid #c41e3a;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.06);
+      font-family: 'Lexend', system-ui, sans-serif;
+    }
+    .dele-routing-badge {
+      display: inline-block;
+      background: #c41e3a;
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+    .dele-routing-title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 0 0 0.8rem;
+      line-height: 1.3;
+    }
+    .dele-routing-body p {
+      font-size: 0.98rem;
+      line-height: 1.6;
+      color: #333;
+      margin: 0 0 0.7rem;
+    }
+    .dele-routing-body p:last-child {
+      margin-bottom: 0;
+    }
+    .dele-routing-cta {
+      display: inline-block;
+      background: #c41e3a;
+      color: #fff;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 0.85rem 1.6rem;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      margin-top: 1.1rem;
+      transition: background 0.2s;
+    }
+    .dele-routing-cta:hover {
+      background: #aa151b;
+    }
+    @media (max-width: 600px) {
+      .dele-routing-strip-inner {
+        padding: 1.5rem 1.3rem;
+        border-left-width: 4px;
+      }
+      .dele-routing-title { font-size: 1.2rem; }
+      .dele-routing-body p { font-size: 0.92rem; }
+      .dele-routing-cta {
+        display: block;
+        text-align: center;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -92,6 +165,34 @@
     <div class="hero-image-wide">
       <img src="assets/images/devices-es.webp" alt="Accesible desde todos los dispositivos">
     </div>
+
+  </div>
+</section>
+
+
+<!-- DELE A2 ROUTING STRIP -->
+<section class="dele-routing-strip">
+  <div class="dele-routing-strip-inner">
+
+    <div class="dele-routing-badge">Información importante</div>
+
+    <h2 class="dele-routing-title">¿Necesitas también el DELE A2?</h2>
+
+    <div class="dele-routing-body">
+      <p>
+        Para obtener la nacionalidad española por residencia se exigen <strong>dos pruebas</strong>: el DELE A2 (examen oficial de idioma) y el CCSE (la prueba que preparas en esta plataforma).
+      </p>
+      <p>
+        <strong>Si necesitas las dos</strong>: nuestro producto DELE A2 incluye la preparación para el CCSE sin coste adicional — 69 € en total, una sola plataforma para ambos exámenes.
+      </p>
+      <p>
+        <strong>Si solo necesitas el CCSE</strong> — por ser nacional de un país hispanohablante, haber estudiado en España, ya tener un DELE A2 o por exención reconocida — estás en la página correcta. Continúa abajo.
+      </p>
+    </div>
+
+    <a href="https://delea2.org/" target="_blank" rel="noopener" class="dele-routing-cta">
+      Ver DELE A2 + CCSE (69 €) →
+    </a>
 
   </div>
 </section>
@@ -280,6 +381,29 @@
   <div class="section-heading">
     <div class="section-kicker">Preguntas frecuentes</div>
     <h2 class="section-title">Preguntas sobre la preparación del examen CCSE</h2>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">
+      <span>¿Necesito también el DELE A2?</span>
+    </div>
+    <div class="faq-answer">
+      <p>
+        Para la nacionalidad española por residencia se exigen <strong>dos pruebas</strong>: el DELE A2 (examen de idioma del Instituto Cervantes, nivel A2 del Marco Común Europeo) y el CCSE (la prueba que preparas en esta plataforma).
+      </p>
+      <p>
+        Estás <strong>exento</strong> del DELE A2 si te encuentras en alguno de estos cuatro casos:
+      </p>
+      <ul>
+        <li>Eres nacional de un país hispanohablante (Argentina, Bolivia, Chile, Colombia, Costa Rica, Cuba, Ecuador, El Salvador, Guatemala, Guinea Ecuatorial, Honduras, México, Nicaragua, Panamá, Paraguay, Perú, República Dominicana, Uruguay o Venezuela).</li>
+        <li>Has cursado estudios oficiales en España (primaria, secundaria, FP o universidad).</li>
+        <li>Tienes una discapacidad reconocida que te exime del examen.</li>
+        <li>Ya tienes un diploma DELE A2 o superior — el diploma DELE no caduca.</li>
+      </ul>
+      <p>
+        Si encajas en alguno de esos casos, esta plataforma es lo que necesitas: prepárate para el CCSE y sigue con tu expediente. Si <strong>no</strong> encajas en ninguno, también vas a necesitar el DELE A2 — en ese caso, nuestro producto <a href="https://delea2.org/" target="_blank" rel="noopener"><strong>DeleA2.org</strong></a> incluye la preparación para las dos pruebas en un único pago de 69 €.
+      </p>
+    </div>
   </div>
 
   <div class="faq-item">
