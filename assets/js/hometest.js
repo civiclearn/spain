@@ -268,6 +268,7 @@ function createEndCard() {
     <a href="https://civiclearn.com/ccse/checkout.html" class="hero-primary-btn">
       Acceso completo
     </a>
+    <p class="wc-curious" style="margin-top:0.9rem;font-size:0.85rem;line-height:1.45;text-align:center;"><a href="https://civiclearn.com/insights/hardest-citizenship-questions?utm_source=spain-home&amp;utm_medium=free-test&amp;utm_campaign=world-challenge" target="_blank" rel="noopener" style="color:inherit;opacity:0.75;text-decoration:underline;text-underline-offset:2px;">¿Solo por curiosidad? Prueba las preguntas de ciudadanía más difíciles del mundo (en inglés) →</a></p>
   `;
 
   return card;
